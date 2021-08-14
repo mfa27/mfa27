@@ -1,0 +1,102 @@
+body{
+   margin: 0px;
+   padding: 0px;
+}
+
+.btn{
+    position: relative;
+    height: 125px;
+    width: 125px;
+    border-radius: 10px;
+    display: block;
+    background-color: whitesmoke;
+    font-size: 20px;
+    text-align: center;
+    user-select: none;
+    font-family: 'Roboto Mono', monospace;
+    }
+.btn:hover {
+background-color: #dcdcdc;
+border-color: #dcdcdc;
+
+}
+
+.btndiv{
+   display: grid;
+   gap: 10px;
+   top: 5px;
+   left: 200px;
+   width: 1724px;
+   position: fixed;
+   user-select: none
+
+}
+
+
+ .sizes{
+    width: 80px;
+    height:auto;
+    color: white;
+    background-color: #2f2f2f;
+    cursor: pointer;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+    padding-left: 5px;
+    user-select: none;
+
+ }
+
+
+.score{
+font-family: 'Roboto Mono', monospace;
+color: white;
+font-size: 30px;
+white-space: nowrap;
+user-select: none
+
+}
+
+.shr7{
+   font-size: 20px;
+   font-family: 'Roboto Mono', monospace;
+   left: 100px;  
+   color: white;
+   left: 49%;
+   padding-left: 5px;
+   user-select: none
+}
+
+.allcont{
+  display: grid;
+  grid-template-columns: repeat(25, 1fr);
+  gap: 10px;
+  padding-left: 5px;
+}
+
+
+.theLeftSide{
+   width: 196px;
+   display: block;
+   height: 100vh;
+   background-color: #2f2f2f;
+}
+
+
+
+.vr{
+   border-left: 6px solid #464646;
+   height: 100vh;
+   left: 190px;
+   position: absolute;
+   display: block;
+   background-color: #151515;
+}
+
+.vr2{
+   border-left: 6px solid #464646;
+   height: 100vh;
+   left: 190px;
+   position: absolute;
+   display: block;
+   background-color: #151515;
+}
